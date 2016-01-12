@@ -1,0 +1,93 @@
+/*HoneyPot*/
+
+.displayNone {
+	display: none;
+}
+h1 {
+	font-size: 20px;
+	text-transform: uppercase;
+	color: #5AD;
+	font-weight: 400;
+}
+h2 {
+	font-size: 16px;
+	color: #5AD;
+	font-weight: 400;
+}
+body{
+	background-color: #5AD;
+	font-family: Avenir Next;
+
+}
+.container{
+	background-color: #FFFFFF;
+	width: 800px;
+	height: 400px;
+	padding: 50px;
+	margin: auto;
+	margin-top: 80px;
+	border-radius: 10px;
+	border: 1px solid #FFFFFF;
+	overflow: scroll;
+	position: relative;
+}
+
+.admin_link{
+	position: absolute;
+	bottom: 30px;
+	right: 50px;
+	color: #000000;
+}
+.admin_link:hover{
+	color: #5AD;
+}
+
+.submit_button {
+	width: 200px;
+	height: 20px;
+	text-align: center;
+	background-color: #5AD;
+	color: #ffffff;
+	border: 1px solid #5AD;
+	display: inline-block;
+}
+.submit_button:hover{
+	background-color: #ffffff;
+	color: #5AD;
+	cursor: pointer;
+}
+
+.error{
+	color: #D4D;
+}
+
+.merci {
+	text-align: center;
+}
+
+.logout {
+	position: absolute;
+	top: 30px;
+	right: 50px;
+	color: #000000;
+}
+
+.logout:hover{
+	color: #5AD;
+}
+
+.edit_button{
+	border: 1px solid #5AD;
+	color: #5AD;
+	text-align: center;
+	text-decoration: none;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 20px;
+	padding-right: 20px;
+	font-size: 14px;
+}
+.edit_button:hover{
+	color: #ffffff;
+	background-color: #5AD;
+}
